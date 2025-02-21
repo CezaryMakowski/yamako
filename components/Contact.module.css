@@ -69,7 +69,8 @@
 }
 
 .localization {
-  width: max-content;
+  width: 90%;
+  max-width: max-content;
   margin-top: 8rem;
   margin-inline: auto;
 }

@@ -92,6 +92,8 @@
   margin-block: 1rem;
   border-spacing: 0;
   text-align: center;
+  max-width: fit-content;
+  width: 90%;
 }
 
 .answerTable thead {
@@ -101,7 +103,7 @@
 
 .answerTable td,
 .answerTable th {
-  padding: 0.5rem 2rem;
+  padding: 0.5rem 1rem;
 }
 
 .answerTable td {
