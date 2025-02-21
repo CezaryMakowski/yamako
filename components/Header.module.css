@@ -1,0 +1,185 @@
+.header {
+  position: relative;
+  width: 100%;
+  padding-top: 4rem;
+  margin-bottom: -4.8rem;
+  z-index: 2;
+  overflow-x: hidden;
+}
+
+.nav {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  gap: 2rem;
+  margin-bottom: -3.5rem;
+  margin-left: 9rem;
+  z-index: 2;
+}
+
+.nav li {
+  font-size: 1.7rem;
+  font-family: var(--title-font);
+}
+
+.nav li:first-child {
+  list-style: none;
+}
+
+.soundImg {
+  width: 1441px !important;
+  height: auto;
+}
+
+.header::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  translate: 8rem 6.8rem;
+  width: 100%;
+  height: 7px;
+  background-color: var(--dark);
+}
+
+.mobileIcon {
+  display: none;
+  position: absolute;
+  top: 1.5rem;
+  right: 1.5rem;
+  width: 3.5rem;
+  aspect-ratio: 1/1;
+  background-color: var(--light);
+  border-radius: 50%;
+  cursor: pointer;
+  z-index: 10;
+}
+
+.mobileIcon div,
+.mobileIcon::after,
+.mobileIcon::before {
+  content: "";
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 60%;
+  height: 0.2rem;
+  background-color: var(--dark);
+  transition: all 0.2s ease-in-out;
+}
+
+.mobileIcon div {
+  translate: -50% -50%;
+}
+
+.mobileIcon::after {
+  translate: -50% calc(-50% + 0.5rem);
+}
+
+.mobileIcon::before {
+  translate: -50% calc(-50% - 0.5rem);
+}
+
+.mobileIcon.active div {
+  translate: -100% -50%;
+  opacity: 0;
+}
+
+.mobileIcon.active::after {
+  translate: -50% -50%;
+  rotate: 45deg;
+  transform-origin: center;
+}
+
+.mobileIcon.active::before {
+  translate: -50% -50%;
+  rotate: -45deg;
+  transform-origin: center;
+}
+
+.mobileNav {
+  position: fixed;
+  display: none;
+  top: 0;
+  right: 0;
+  width: 50%;
+  translate: 100% 0;
+  transition: translate 0.3s ease-in-out;
+}
+
+.mobileNav.active {
+  translate: 0 0;
+}
+
+.mobileNav .mobileLinksContainer {
+  position: relative;
+  width: 85%;
+  margin-inline: auto;
+  margin-top: 6.2rem;
+  background-color: white;
+  border-top: solid 0.5rem var(--dark);
+}
+
+.mobileNav .mobileLinksContainer::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 50%;
+  translate: -50% calc(-50% - 0.5rem);
+  width: 70%;
+  aspect-ratio: 2/1;
+  border-radius: 50%;
+  background-color: var(--light);
+  z-index: -1;
+}
+
+.mobileNav ul {
+  list-style: none;
+  text-align: center;
+  padding-block: 2rem;
+}
+
+.mobileNav li {
+  font-size: 1.4rem;
+  font-family: var(--title-font);
+  margin-bottom: 1rem;
+}
+
+.mobileNav .shape {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  translate: -50% calc(100% - 1px);
+  width: 100%;
+  height: auto;
+  scale: 1 -1;
+}
+
+@media (max-width: 960px) {
+  .nav li {
+    font-size: 1.4rem;
+  }
+
+  .header::before {
+    display: none;
+  }
+}
+
+@media (max-width: 850px) {
+  .header {
+    padding-top: 2rem;
+  }
+
+  .nav {
+    display: none;
+  }
+
+  .mobileIcon {
+    display: block;
+  }
+
+  .mobileNav {
+    display: block;
+  }
+}

@@ -1,0 +1,60 @@
+.section {
+  position: relative;
+  width: 95%;
+  margin-inline: auto;
+  margin-top: 13rem;
+  margin-bottom: 10rem;
+}
+
+.titleContainer {
+  position: relative;
+  text-align: center;
+  padding: 1.5rem;
+}
+
+.titleContainer h2 {
+  position: relative;
+}
+
+.titleContainer::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  translate: -50% 50%;
+  min-width: 22rem;
+  width: 50%;
+  max-width: 40rem;
+  aspect-ratio: 2/1;
+  border-radius: 50%;
+  background-color: var(--light);
+}
+
+.textContainer {
+  position: relative;
+  background-color: white;
+  padding: 2rem;
+  text-align: center;
+  border-top: solid 0.7rem var(--dark);
+}
+
+.textContainer p:not(:last-child) {
+  margin-bottom: 1rem;
+}
+
+.shape {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: auto;
+  translate: 0 calc(100% - 1px);
+  scale: 1 -1;
+}
+
+@media (max-width: 767px) {
+  .section {
+    margin-top: 7rem;
+    margin-bottom: 8rem;
+  }
+}

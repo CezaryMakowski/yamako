@@ -1,0 +1,144 @@
+.form {
+  position: relative;
+  width: 95%;
+  max-width: 80rem;
+  margin: auto;
+  margin-bottom: 5rem;
+  border-top: solid 1rem var(--dark);
+  background-color: var(--light);
+  padding: 2rem 3rem;
+}
+
+.form::before {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  translate: -50% 50%;
+  width: 100%;
+  height: 10rem;
+  background-color: var(--light);
+  border-radius: 50%;
+  z-index: -1;
+}
+
+.inputContainer {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+}
+
+.inputContainer > div {
+  width: 35%;
+}
+
+.inputContainer input {
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  width: 100%;
+}
+
+.inputContainer input:focus,
+.form textarea:focus {
+  outline: none;
+}
+
+.inputContainer input::placeholder,
+.form textarea::placeholder,
+.form textarea,
+.inputContainer input {
+  color: var(--dark);
+  font-family: var(--text-font);
+  font-size: 1.3rem;
+}
+
+.inputContainer input::placeholder {
+  text-align: center;
+}
+
+.form textarea {
+  position: relative;
+  margin-top: 5rem;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  width: 100%;
+  height: 15rem;
+  border: none;
+  resize: vertical;
+}
+
+.form button {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  translate: -50% 90%;
+  padding: 0.5rem 1rem;
+  font-family: var(--title-font);
+  font-size: 1.6rem;
+  color: var(--dark);
+  background-color: white;
+  border: solid 0.3rem var(--dark);
+  cursor: pointer;
+}
+
+.form button:disabled {
+  opacity: 0.8;
+}
+
+.lotos {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  translate: -50% -60%;
+  width: 25%;
+  min-width: 15rem;
+  max-width: 20rem;
+  height: auto;
+}
+
+.error {
+  text-align: center;
+  padding-top: 0.3rem;
+}
+
+.success {
+  position: fixed;
+  right: 20px;
+  bottom: 100px;
+  background-color: var(--light);
+  padding: 10px;
+  border-radius: 20px;
+  z-index: 99999;
+  font-family: var(--title-font);
+  font-size: 1.5rem;
+  color: var(--dark);
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.2);
+}
+
+@media (max-width: 1150px) {
+  .form textarea {
+    margin-top: 2rem;
+  }
+}
+
+@media (max-width: 865px) {
+  .form {
+    padding-inline: 1rem;
+  }
+
+  .form textarea {
+    margin-top: 1rem;
+  }
+
+  .inputContainer {
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 5rem;
+  }
+
+  .inputContainer > div {
+    width: 100%;
+  }
+}

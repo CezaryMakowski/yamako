@@ -1,0 +1,31 @@
+.faq {
+  width: 95%;
+  margin: auto;
+}
+
+.question {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem 2rem;
+  background-color: var(--light);
+  border-bottom: 4px solid var(--dark);
+  cursor: pointer;
+}
+
+.question img {
+  width: 0.8rem;
+  height: auto;
+  transition: all 0.2s ease-in-out;
+}
+
+.question img.rotate {
+  transform: rotate(90deg);
+}
+
+.answerContainer {
+  max-height: 0;
+  transition: max-height 0.3s ease-in-out;
+  overflow: hidden;
+  background-color: white;
+}
