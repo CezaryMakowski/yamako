@@ -20,9 +20,9 @@ export default function HowItsDone() {
           ciepło.
         </p>
         <p>
-          Prowadzący sesję działa w przestrzeni wymagającej uwagi "tu i teraz".
+          {`Prowadzący sesję działa w przestrzeni wymagającej uwagi "tu i teraz".
           W chwili jej trwania, intuicyjnie dobiera elementy, które są ściśle
-          dopasowane do indywidualnego stanu i charakteru danej osoby.
+          dopasowane do indywidualnego stanu i charakteru danej osoby.`}
         </p>
         <p>
           Nasze ciało składa się w siedemdziesięciu procentach z wody, a woda ma

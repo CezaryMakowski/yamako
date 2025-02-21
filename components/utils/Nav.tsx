@@ -1,6 +1,5 @@
 import Link from "next/link";
 import { ComponentPropsWithoutRef } from "react";
-import type { Ref } from "react";
 
 interface props extends ComponentPropsWithoutRef<"nav"> {
   closeFnc?: () => void;

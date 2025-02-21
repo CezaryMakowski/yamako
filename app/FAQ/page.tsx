@@ -3,7 +3,6 @@ import styles from "./page.module.css";
 import shape from "@/public/styling_shape.svg";
 import FaqModule from "@/components/utils/FaqModule";
 import FadeIn from "@/components/utils/FadeInAnim";
-import ScaleIn from "@/components/utils/ScaleInAnim";
 
 export default function FAQ() {
   return (
