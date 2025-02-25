@@ -5,6 +5,7 @@ import soundWave from "@/public/yamako_soundwave.svg";
 import shape from "@/public/styling_shape_white.svg";
 import Link from "next/link";
 import FadeIn from "./utils/FadeInAnim";
+import ScaleIn from "./utils/ScaleInAnim";
 
 export default function AboutSession() {
   return (
@@ -13,8 +14,10 @@ export default function AboutSession() {
       <div className={styles.visualsContainer}>
         <div className={`${styles.bottomShape} ${styles.left}`}></div>
         <div className={styles.bottomShape}></div>
-        <Image src={soundWave} alt="soundWave" className={styles.soundWave} />
-        <Image src={lotos} alt="lotos" className={styles.lotos} />
+        <ScaleIn>
+          <Image src={soundWave} alt="soundWave" className={styles.soundWave} />
+          <Image src={lotos} alt="lotos" className={styles.lotos} />
+        </ScaleIn>
       </div>
       <FadeIn>
         <Image src={shape} alt="shape" className={styles.shape} />

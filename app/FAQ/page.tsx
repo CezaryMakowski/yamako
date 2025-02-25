@@ -3,12 +3,17 @@ import styles from "./page.module.css";
 import shape from "@/public/styling_shape.svg";
 import FaqModule from "@/components/utils/FaqModule";
 import FadeIn from "@/components/utils/FadeInAnim";
+import ScaleIn from "@/components/utils/ScaleInAnim";
 
 export default function FAQ() {
   return (
     <main>
       <section className={styles.titleSection}>
-        <h1 className={styles.title}>Najczęściej Zadawane Pytania</h1>
+        <div className={styles.title}>
+          <ScaleIn>
+            <h1>Najczęściej Zadawane Pytania</h1>
+          </ScaleIn>
+        </div>
       </section>
       <FadeIn>
         <section className={styles.faqSection}>
