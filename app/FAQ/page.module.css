@@ -87,13 +87,14 @@
 
 .answerTable {
   font-family: var(--text-font);
-  font-size: 1.3rem;
+  font-size: 1.4rem;
   margin-inline: auto;
   margin-block: 1rem;
   border-spacing: 0;
   text-align: center;
   max-width: fit-content;
   width: 90%;
+  font-weight: 600;
 }
 
 .answerTable thead {

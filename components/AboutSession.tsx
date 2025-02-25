@@ -57,9 +57,9 @@ export default function AboutSession() {
             fizjoterapia komórek.
           </p>
           <div className={styles.linksContainer}>
-            <Link href={"#"}>Jak przebiega sesja?</Link>
-            <Link href={"#"}>Cennik</Link>
-            <Link href={"#"}>Umów się na sesję</Link>
+            <Link href={"/#przebieg-sesji"}>Jak przebiega sesja?</Link>
+            <Link href={"/#cennik"}>Cennik</Link>
+            <Link href={"/#kontakt"}>Umów się na sesję</Link>
           </div>
           <h2 className={styles.title2}>Korzyści zdrowotne śpiewających mis</h2>
           <div className={styles.listContainer}>

@@ -21,6 +21,7 @@
 .nav li {
   font-size: 1.7rem;
   font-family: var(--title-font);
+  font-weight: 400;
 }
 
 .nav li:first-child {
@@ -144,6 +145,7 @@
   font-size: 1.4rem;
   font-family: var(--title-font);
   margin-bottom: 1rem;
+  font-weight: 400;
 }
 
 .mobileNav .shape {

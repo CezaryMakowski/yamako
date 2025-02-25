@@ -27,7 +27,7 @@
 }
 
 .jacek {
-  width: clamp(25rem, 30%, 45rem);
+  width: clamp(22rem, 30%, 45rem);
   height: auto;
   translate: 0 22%;
   z-index: 1;
