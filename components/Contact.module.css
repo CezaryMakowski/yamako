@@ -68,10 +68,18 @@
   translate: -50% 50%;
 }
 
+.facebook {
+  display: block;
+  margin: 0 auto;
+  margin-top: 1rem;
+  width: 7rem;
+  height: auto;
+}
+
 .localization {
   width: 90%;
   max-width: max-content;
-  margin-top: 8rem;
+  margin-top: 5rem;
   margin-inline: auto;
 }
 
@@ -97,6 +105,10 @@
     align-items: center;
     gap: 10rem;
     margin-top: 10rem;
+  }
+
+  .facebook {
+    margin-top: 3rem;
   }
 
   .title {

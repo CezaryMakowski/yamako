@@ -21,9 +21,7 @@ export default function Home() {
       <FadeIn>
         <Pricing />
       </FadeIn>
-      <FadeIn>
-        <Contact />
-      </FadeIn>
+      <Contact />
     </main>
   );
 }

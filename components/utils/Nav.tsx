@@ -20,13 +20,8 @@ export default function Nav({ closeFnc, ...props }: props) {
           </Link>
         </li>
         <li>
-          <Link href="/#kontakt" onClick={closeFnc}>
-            Kontakt
-          </Link>
-        </li>
-        <li>
-          <Link href="/#cennik" onClick={closeFnc}>
-            Cennik
+          <Link href="/#przebieg-sesji" onClick={closeFnc}>
+            Przebieg Sesji
           </Link>
         </li>
         <li>
@@ -35,8 +30,13 @@ export default function Nav({ closeFnc, ...props }: props) {
           </Link>
         </li>
         <li>
-          <Link href="/#przebieg-sesji" onClick={closeFnc}>
-            Przebieg Sesji
+          <Link href="/#kontakt" onClick={closeFnc}>
+            Kontakt
+          </Link>
+        </li>
+        <li>
+          <Link href="/#cennik" onClick={closeFnc}>
+            Cennik
           </Link>
         </li>
       </ul>
