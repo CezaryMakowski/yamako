@@ -51,12 +51,12 @@ export default function FAQ() {
                 się blisko ciała.
               </p>
               <p>
-                {`Każda misa ma specyficzny ton, który jest powiązany z czakrą lub
+                Każda misa ma specyficzny ton, który jest powiązany z czakrą lub
                 punktem energetycznym w ciele. Gdy ktoś uruchamia misy i posiada
-                "muzyczne ucho", słyszy, gdzie ktoś utyka z energią, ponieważ
-                misy brzmią płasko lub tępo w takim przypadku. Kontynuowanie gry
-                powoduje balansowanie osłabionych miejsc, dopóki nie staną się
-                one bardziej wyrównane.`}
+                &quot;muzyczne ucho&quot;, słyszy, gdzie ktoś utyka z energią,
+                ponieważ misy brzmią płasko lub tępo w takim przypadku.
+                Kontynuowanie gry powoduje balansowanie osłabionych miejsc,
+                dopóki nie staną się one bardziej wyrównane.
               </p>
             </div>
           </FaqModule>
