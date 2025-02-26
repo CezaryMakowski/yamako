@@ -376,10 +376,8 @@ export default function FAQ() {
                 odmówić używania mis śpiewających. Jedną z nich jest epilepsja,
                 osoba chora na padaczkę powinna unikać terapii dźwiękiem,
                 podczas której wykorzystuje się misy śpiewające. Jeśli dana
-                osoba chce wziąć udział, lepiej najpierw zasięgnąć porady
-                lekarza, aby upewnić się, że ma odpowiednie leki
-                przeciwpadaczkowe i nie grozi jej zarażenie w wyniku wibracji
-                dźwiękowych. Podobnie osoby cierpiące na chorobę Parkinsona i
+                osoba chce wziąć udział, należy najpierw zasięgnąć porady
+                lekarza. Podobnie osoby cierpiące na chorobę Parkinsona i
                 korzystające z urządzenia do głębokiej stymulacji mózgu (DBS)
                 również powinny unikać używania mis śpiewających. Pacjenci z
                 innymi zaburzeniami neurologicznymi również powinni skonsultować
