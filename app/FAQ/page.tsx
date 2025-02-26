@@ -26,7 +26,7 @@ export default function FAQ() {
                 bogaty, głęboki dźwięk.
               </p>
               <p>
-                Wibrację tę można poczuć w ciele i usłyszeć. Najpierw powstały z
+                Wibracje te można poczuć w ciele i usłyszeć. Najpierw powstały z
                 konieczności. Używano ich jako miary zboża, gdy rodzina
                 uprawiała jedną uprawę, a druga coś innego, a misy używano do
                 odmierzania i wymiany plonów.
@@ -52,9 +52,9 @@ export default function FAQ() {
               </p>
               <p>
                 Każda misa ma specyficzny ton, który jest powiązany z czakrą lub
-                punktem energetycznym ciele. Gdy ktoś uruchamia misy i posiada
-                muzyczne ucho, słyszy, gdzie ktoś utyka z energią, ponieważ misy
-                brzmią płasko lub tępo w takim przypadku. Kontynuowanie gry
+                punktem energetycznym w ciele. Gdy ktoś uruchamia misy i posiada
+                "muzyczne ucho", słyszy, gdzie ktoś utyka z energią, ponieważ
+                misy brzmią płasko lub tępo w takim przypadku. Kontynuowanie gry
                 powoduje balansowanie osłabionych miejsc, dopóki nie staną się
                 one bardziej wyrównane.
               </p>
@@ -221,14 +221,14 @@ export default function FAQ() {
             <div className={styles.answer}>
               <p>
                 Każda misa ma specyficzny ton. Każdy ton odnosi się do
-                określonego punktu energetyczneg lub obszaru gdzie jest
+                określonego punktu energetycznego lub obszaru gdzie jest
                 umiejscowiony konkretny narząd ciała.
               </p>
               <p>
                 Gdy mamy zaburzenie w ciele, a energia jest zatrzymana, zwykle
                 doświadczamy bólu lub dyskomfortu, lub jeśli trwa to
                 wystarczająco długo, zaburzenie takie powoduje prawdziwą
-                chorobę. Jakkolwiek, ponieważ nasze ciała składają się z 80%
+                chorobę. Jakkolwiek, ponieważ nasze ciała składają się z 70%
                 wody, możemy użyć delikatnego dźwięku i wibracji mis, aby
                 subtelnie zamieszać nasze cząsteczki wody oraz je przesunąć i
                 otworzyć energię w ciele.
@@ -264,7 +264,7 @@ export default function FAQ() {
               <p>
                 <strong>
                   Lecznicza potęga dźwięku (Powrót do zdrowia po chorobach
-                  zagrażającej życiu za pomocą dźwięku, głosu i muzyki),
+                  zagrażających życiu za pomocą dźwięku, głosu i muzyki),
                 </strong>
               </p>
               <p>
@@ -318,7 +318,7 @@ export default function FAQ() {
             <div className={styles.answer}>
               <p>
                 U pacjentów z wszczepionym kardiowerterem-defibrylatorem lub
-                stentami wieńcowymi NIE zalec się operowania misami. Niestety
+                stentami wieńcowymi NIE zaleca się operowania misami. Niestety
                 wibracje mogą powodować dyskomfort lub nieprawidłowe działanie
                 tych delikatnych urządzeń.
               </p>
@@ -346,22 +346,23 @@ export default function FAQ() {
                 lekarza przed wykonaniem sesji misami, aby upewnić się, że nie
                 grozi Ci atak spowodowany dźwiękowymi wibracjami.
               </p>
-              <p>
-                Co się stanie, jeśli mam chorobę Parkinsona lub stwardnienie
-                rozsiane?
-              </p>
-              <p>
-                Wpływ muzyki na ludzki układ nerwowy został zilustrowany na
-                przykładzie pacjentów z poważnymi zaburzeniami neurologicznymi,
-                którzy szybko i radykalnie reagują na leczenie dźwiękiem. Nawet
-                film PRZEBUDZENIA opowiadał historię Olivera Sacksa i jego pracy
-                z muzyką oraz chorob Parkinsona. W przypadku osób z problemami
-                motorycznymi muzyka działa jak katalizator i nawet usłyszenie
-                rytmu może spowodować, że wyskoczą z krzeseł i zaczną tańczyć.
-                Misy łączą się z tą samą częścią mózgu i pomagają ponownie
-                połączyć w nim obwody nerwowe.
-              </p>
             </div>
+          </FaqModule>
+          <FaqModule
+            question="Co się stanie, jeśli mam chorobę Parkinsona lub stwardnienie
+                rozsiane?"
+          >
+            <p>
+              Wpływ muzyki na ludzki układ nerwowy został zilustrowany na
+              przykładzie pacjentów z poważnymi zaburzeniami neurologicznymi,
+              którzy szybko i radykalnie reagują na leczenie dźwiękiem. Nawet
+              film PRZEBUDZENIA opowiadał historię Olivera Sacksa i jego pracy z
+              muzyką oraz chorob Parkinsona. W przypadku osób z problemami
+              motorycznymi muzyka działa jak katalizator i nawet usłyszenie
+              rytmu może spowodować, że wyskoczą z krzeseł i zaczną tańczyć.
+              Misy łączą się z tą samą częścią mózgu i pomagają ponownie
+              połączyć w nim obwody nerwowe.
+            </p>
           </FaqModule>
           <FaqModule question="Kiedy należy całkowicie zrezygnować z używania misy śpiewającej?">
             <div className={styles.answer}>
@@ -396,32 +397,7 @@ export default function FAQ() {
               </p>
             </div>
           </FaqModule>
-          <FaqModule question="Co jeśli mam padaczkę?">
-            <div className={styles.answer}>
-              <p>
-                Jeśli masz padaczkę, najlepiej jest uzyskać pozwolenie od
-                lekarza przed sesją z misami leczniczymi, aby mieć pewność, że
-                nie grozi Ci atak padaczkowy spowodowany wibracjami dźwiękowymi.
-              </p>
-            </div>
-          </FaqModule>
-          <FaqModule question="Co jeśli mam chorobę Parkinsona lub Stwardnienie Rozsiane?">
-            <div className={styles.answer}>
-              <p>
-                Wpływ muzyki na ludzki układ nerwowy został zilustrowany przez
-                pacjentów z poważnymi zaburzeniami neurologicznymi, którzy
-                szybko i dramatycznie reagują na leczenie dźwiękiem.
-              </p>
-              <p>
-                Nawet film PRZEBUDZENIA opowiedział historię Olivera Sacksa i
-                jego pracy z muzyką i choro Parkinsona. W przypadku osób z
-                problemami motorycznymi muzyka działa jak katalizator, a nawet
-                usłyszenie rytmu może sprawić, że podskoczą z krzeseł i zaczną
-                tańczyć. Misy łączą się z tą samą częścią mózgu i pomagają
-                ponownie połączyć obwody mózgu.
-              </p>
-            </div>
-          </FaqModule>
+
           <FaqModule question="Czy misy pomagają w zdrowiu psychicznym?">
             <div className={styles.answer}>
               <p>
@@ -458,15 +434,13 @@ export default function FAQ() {
           <FaqModule question="Jaka jest twoja polityka anulowania?">
             <div className={styles.answer}>
               <p>
-                Miski są bardzo ciężkie do przenoszenia, a w uzdrawianiu bierze
-                udział wiele ruchomych części, dlatego wymagam zaliczki za
-                sesję. Aby odwołać wizytę, należy powiadomić o tym fakcie z 24-
+                Aby odwołać wizytę, należy powiadomić o tym fakcie z 24-
                 godzinnym wyprzedzeniem, w przeciwnym razie zostanie naliczona
-                pełna opłata za sesję. Prosimy NIE spóźniać się na sesję.
-                Godziny wizyt są ustalane indywidualnie i nie mogą zostać
-                wydłużone poza podany czas, aby uwzględnić spóźnienia. Jeśli się
-                spóźnisz, sesja zostanie skrócona. Jeśli spóźnisz się na więcej
-                niż 15 minut, sesja zostanie uznana za odwołaną.
+                pełna opłata za sesję. Proszę NIE spóźniać się na sesję. Godziny
+                wizyt są ustalane indywidualnie i nie mogą zostać wydłużone poza
+                podany czas, aby uwzględnić spóźnienia. Jeśli się spóźnisz,
+                sesja zostanie skrócona. Jeśli spóźnisz się na więcej niż 15
+                minut, sesja zostanie uznana za odwołaną.
               </p>
             </div>
           </FaqModule>

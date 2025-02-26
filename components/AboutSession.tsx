@@ -38,10 +38,10 @@ export default function AboutSession() {
             niepokój, depresję, bezsenność).
           </p>
           <p>
-            Badania wykazały, że śpiewające misy mogą wywoływać fizjologiczne
-            psychologiczne reakcje, zmniejszając negatywne oddziaływania i
-            zwiększając pozytywne, a także poprawiając ciśnienie krwi, tętno i
-            częstość oddechów.
+            Badania wykazały, że śpiewające misy mogą wywoływać
+            fizjologiczno-psychologiczne reakcje, zmniejszając negatywne
+            oddziaływania i zwiększając pozytywne, a także poprawić ciśnienie
+            krwi, tętno i częstość oddechów.
           </p>
           <p>
             Ich działanie pomaga wzmocnić układ odpornościowy i poprawia ogólne
