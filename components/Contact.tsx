@@ -7,6 +7,7 @@ import mail from "@/public/yamako_mail.svg";
 import pin from "@/public/yamako_pin.svg";
 import facebook from "@/public/yamako_facebook.svg";
 import FadeIn from "./utils/FadeInAnim";
+import ScaleIn from "./utils/ScaleInAnim";
 
 export default function Contact() {
   return (
@@ -29,11 +30,11 @@ export default function Contact() {
           </div>
         </div>
       </FadeIn>
-      <FadeIn>
+      <ScaleIn>
         <Link href={"https://www.facebook.com/profile.php?id=61558710039370"}>
           <Image src={facebook} alt="facebook" className={styles.facebook} />
         </Link>
-      </FadeIn>
+      </ScaleIn>
       <FadeIn>
         <div className={styles.localization}>
           <h2>Gdzie odbywają się sesje?</h2>

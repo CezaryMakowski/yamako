@@ -9,7 +9,7 @@
   position: relative;
   width: 100vw;
   height: 3rem;
-  background-image: linear-gradient(var(--light), white 70%);
+  background-color: white;
 }
 
 .borderTop::before {
@@ -34,7 +34,7 @@
   top: 50%;
   left: 50%;
   translate: -50% -50%;
-  width: clamp(12rem, 27%, 20rem);
+  width: clamp(12rem, 27%, 18rem);
   height: auto;
   z-index: 2;
 }

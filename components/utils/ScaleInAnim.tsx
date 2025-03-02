@@ -5,7 +5,8 @@ export default function ScaleIn({ children }: { children: React.ReactNode }) {
   return (
     <motion.div
       initial={{ scale: 0.5, opacity: 0 }}
-      animate={{ scale: 1, opacity: 1 }}
+      whileInView={{ scale: 1, opacity: 1 }}
+      viewport={{ margin: "-150px 0px -150px 0px", once: true }}
       style={{
         width: "100%",
         height: "100%",

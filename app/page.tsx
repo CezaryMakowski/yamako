@@ -6,21 +6,22 @@ import HowItsDone from "@/components/HowItsDone";
 import Pricing from "@/components/Pricing";
 import Contact from "@/components/Contact";
 import FadeIn from "@/components/utils/FadeInAnim";
+import ScaleIn from "@/components/utils/ScaleInAnim";
 
 export default function Home() {
   return (
     <main className={styles.main}>
       <Introduction />
-      <AboutSession />
       <FadeIn>
         <AboutMe />
       </FadeIn>
+      <AboutSession />
       <FadeIn>
         <HowItsDone />
       </FadeIn>
-      <FadeIn>
+      <ScaleIn>
         <Pricing />
-      </FadeIn>
+      </ScaleIn>
       <Contact />
     </main>
   );
