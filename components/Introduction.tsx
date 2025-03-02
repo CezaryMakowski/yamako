@@ -7,7 +7,7 @@ export default function Introduction() {
   return (
     <section className={styles.section}>
       <div>
-        <h1 className={styles.title}>Yamako Terapie Dźwiękiem</h1>
+        <h1 className={styles.title}>Witajcie, Dobrzy ludzie</h1>
         <Image
           src={brushStroke}
           alt="pociągnięcia pędzlem"

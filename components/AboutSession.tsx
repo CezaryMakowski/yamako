@@ -22,7 +22,6 @@ export default function AboutSession() {
       <FadeIn>
         <Image src={shape} alt="shape" className={styles.shape} />
         <div className={styles.textContainer}>
-          <h2 className={styles.title1}>Witajcie Dobrzy Ludzie</h2>
           <p>
             Mistrzowie, którzy leczyli ich wibracjami od tysięcy lat, podzielili
             się tą wiedzą, bo są świadomi doniosłości naszych czasów. Teraz nie

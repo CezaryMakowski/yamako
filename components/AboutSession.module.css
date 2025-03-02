@@ -18,7 +18,7 @@
   bottom: 0;
   left: 50%;
   translate: -50% 45%;
-  width: clamp(18rem, 50%, 40rem);
+  width: clamp(15rem, 50%, 40rem);
   aspect-ratio: 3/1;
   border-radius: 50%;
   background-color: white;
@@ -34,7 +34,7 @@
   top: 50%;
   left: 50%;
   translate: -50% -50%;
-  width: clamp(12rem, 27%, 18rem);
+  width: clamp(10rem, 27%, 18rem);
   height: auto;
   z-index: 2;
 }
@@ -59,11 +59,6 @@
   background-color: white;
   text-align: center;
   padding-block: 3rem 1rem;
-}
-
-.title1 {
-  margin-bottom: 1.5rem;
-  padding-inline: 2rem;
 }
 
 .textContainer > p {
