@@ -97,7 +97,7 @@ export default function Page() {
                 umówieniem sesji.
               </li>
               <li>
-                Płatność za sesję odbywa się gotówką, lub blik'iem na telefon.
+                {`Płatność za sesję odbywa się gotówką, lub blik'iem na telefon.`}
               </li>
               <li>
                 Brak uregulowania płatności może skutkować odmową świadczenia
