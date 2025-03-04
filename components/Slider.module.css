@@ -1,14 +1,13 @@
 .mySwiper {
   width: 100%;
   margin-top: 2rem;
-  /* overflow: visible !important; */
 }
 
 .mySwiperThumbs {
   margin-top: 2rem;
   margin-bottom: 2rem;
   width: 90%;
-  overflow: visible !important;
+  padding-block: 0.5rem !important;
 }
 
 .activeThumb {
