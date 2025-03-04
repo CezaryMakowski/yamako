@@ -1,0 +1,63 @@
+.section {
+  position: relative;
+  width: 95%;
+  margin-inline: auto;
+  margin-top: 8rem;
+
+  margin-bottom: 20rem;
+}
+
+.titleContainer {
+  position: relative;
+  text-align: center;
+  padding: 1.5rem;
+  padding-bottom: 0.5rem;
+}
+
+.titleContainer h1 {
+  position: relative;
+}
+
+.titleContainer::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  translate: -50% 50%;
+  width: clamp(22rem, 50vw, 35rem);
+  aspect-ratio: 2/1;
+  border-radius: 50%;
+  background-color: var(--light);
+}
+
+.textContainer {
+  position: relative;
+  background-color: white;
+  padding-block: 2rem;
+  padding-right: 2rem;
+  padding-left: 3rem;
+  text-align: left;
+  border-top: solid 0.7rem var(--dark);
+}
+
+.textContainer > ol > li::marker {
+  font-family: var(--title-font);
+}
+
+.textContainer > ol > li > ol {
+  margin-left: 1.5rem;
+}
+
+.textContainer > ol > li {
+  margin-bottom: 2rem !important;
+}
+
+.shape {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: auto;
+  translate: 0 calc(100% - 1px);
+  scale: 1 -1;
+}

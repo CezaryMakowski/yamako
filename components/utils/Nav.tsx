@@ -35,6 +35,11 @@ export default function Nav({ closeFnc, ...props }: props) {
           </Link>
         </li>
         <li>
+          <Link href="/#gdzie" onClick={closeFnc}>
+            Gdzie
+          </Link>
+        </li>
+        <li>
           <Link href="/#cennik" onClick={closeFnc}>
             Cennik
           </Link>

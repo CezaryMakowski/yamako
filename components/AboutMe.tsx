@@ -20,6 +20,13 @@ export default function AboutMe() {
         są mi bardzo bliskie. Odczuwam materię w której się manifestują na
         poziomie materialnym, wibracyjnym oraz duchowym.
       </p>
+      <p className={styles.text}>
+        W zabiegach, które wykonuję posługuję się tybetańskimi misami
+        śpiewającymi, których używam na podstawie mądrości i wiedzy znanych
+        mistrzów z rejonu himalajów. Nie ograniczam się jednak do jednego nurtu.
+        Czasami dostosowanie się do człowieka z użyciem odpowiednich środków
+        daje o wiele lepsze rezultaty.
+      </p>
       <div className={styles.borderBottom}></div>
     </section>
   );

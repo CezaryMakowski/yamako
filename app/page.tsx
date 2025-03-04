@@ -24,7 +24,9 @@ export default function Home() {
         <Pricing />
       </ScaleIn>
       <Contact />
-      <Slider />
+      <FadeIn>
+        <Slider />
+      </FadeIn>
     </main>
   );
 }

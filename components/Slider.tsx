@@ -4,23 +4,52 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import type { Swiper as SwiperType } from "swiper";
 import Image from "next/image";
 import styles from "./Slider.module.css";
-import { useState } from "react";
-import { EffectCoverflow, Thumbs, Autoplay } from "swiper/modules";
+import { useEffect, useState } from "react";
+import { EffectCoverflow, Thumbs } from "swiper/modules";
+import expand from "@/public/expand.svg";
 import "swiper/css";
 import "swiper/css/thumbs";
+
+type ZoomedImage = {
+  src: string;
+  alt: string;
+} | null;
 export default function Slider() {
   const [thumbsSwiper, setThumbsSwiper] = useState<SwiperType | null>(null);
+  const [zoomedImage, setZoomedImage] = useState<ZoomedImage>(null);
   const gallery = [
-    "/where/yamako_mapa.webp",
-    "/where/yamako_entry.jpg",
-    "/where/yamako_domofon.webp",
-    "/where/yamako_mapa.webp",
-    "/where/yamako_entry.jpg",
-    "/where/yamako_domofon.webp",
-    "/where/yamako_mapa.webp",
-    "/where/yamako_entry.jpg",
-    "/where/yamako_domofon.webp",
+    { src: "/where/yamako_mapa.webp", alt: "mapa dojazdu" },
+    { src: "/where/yamako_entry.jpg", alt: "wejście do gabinetu" },
+    { src: "/where/yamako_domofon.webp", alt: "domofon" },
+    { src: "/where/yamako_mapa.webp", alt: "mapa dojazdu" },
+    { src: "/where/yamako_entry.jpg", alt: "wejście do gabinetu" },
+    { src: "/where/yamako_domofon.webp", alt: "domofon" },
+    { src: "/where/yamako_mapa.webp", alt: "mapa dojazdu" },
+    { src: "/where/yamako_entry.jpg", alt: "wejście do gabinetu" },
+    { src: "/where/yamako_domofon.webp", alt: "domofon" },
   ];
+
+  function Zoom({ image }: { image: ZoomedImage }) {
+    if (!image) return null;
+    return (
+      <div
+        className={styles.zoomedContainer}
+        onClick={() => setZoomedImage(null)}
+      >
+        <Image
+          className={styles.zoomedImage}
+          src={image.src}
+          alt={image.alt}
+          width={1500}
+          height={1000}
+        />
+      </div>
+    );
+  }
+
+  useEffect(() => {
+    console.log(zoomedImage);
+  }, [zoomedImage]);
 
   return (
     <>
@@ -29,8 +58,9 @@ export default function Slider() {
         thumbs={{
           swiper: thumbsSwiper && !thumbsSwiper.destroyed ? thumbsSwiper : null,
         }}
-        modules={[Thumbs, EffectCoverflow, Autoplay]}
+        modules={[Thumbs, EffectCoverflow]}
         slidesPerView={1}
+        initialSlide={3}
         effect="coverflow"
         coverflowEffect={{
           rotate: 20,
@@ -45,18 +75,25 @@ export default function Slider() {
             slidesPerView: 3,
           },
         }}
-        // autoplay={{ delay: 3000 }}
         centeredSlides
       >
         {gallery.map((image, index) => (
           <SwiperSlide key={`slide-${index}`}>
-            <Image
-              src={image}
-              className={styles.slide}
-              alt={`obraz galerii${index}`}
-              width={1500}
-              height={1000}
-            />
+            <div>
+              <Image
+                src={image.src}
+                className={styles.slide}
+                alt={image.alt}
+                width={1500}
+                height={1000}
+              />
+              <div
+                className={styles.expand}
+                onClick={() => setZoomedImage(image)}
+              >
+                <Image src={expand} alt="zwiększ" width={50} height={50} />
+              </div>
+            </div>
           </SwiperSlide>
         ))}
       </Swiper>
@@ -71,15 +108,16 @@ export default function Slider() {
         {gallery.map((image, index) => (
           <SwiperSlide key={`slide-thumb${index}`} className={styles.thumb}>
             <Image
-              src={image}
+              src={image.src}
               className={styles.slide}
-              alt={`miniaturka obrazu galerii${index}`}
+              alt={image.alt}
               width={1500}
               height={1000}
             />
           </SwiperSlide>
         ))}
       </Swiper>
+      <Zoom image={zoomedImage} />
     </>
   );
 }

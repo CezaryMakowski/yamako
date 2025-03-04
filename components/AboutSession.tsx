@@ -55,21 +55,22 @@ export default function AboutSession() {
             Kamertony stanowią medium z którego równierz korzystam. Jeżeli ktoś
             ma trudności z wyciszeniem umysłu, jeżeli myślami nie potrafi odciąć
             się od codziennej gonitwy dnia - wtedy pomaga mi określony ich
-            zestaw. Używam też te, które oddziaływują na fale mózgowe. Za pomocą
-            odpowiedniej ich pary, można pomóc, by osiągnąć stan u kogoś, który
-            bardzo sprzyja później we właściwym odbiorze sesji śpiewającymi
-            misami.
+            zestaw, który oddziaływuje na fale mózgowe. Za pomocą odpowiedniej
+            pary kamertonów, można pomóc osiągnąć komuś określony stan umysłu,
+            który przekłada się na właściwy odbiór sesji śpiewającymi misami.
           </p>
           <p>
             Kamertonami można o wiele więcej. Wraz z indywidualnym podejściem do
             człowieka, można pomóc mu w osiągnięciu balansu ciała i ducha.
             Umieszczając nóżkę kamertonu na punktach akupunkturowych na ciele,
             można wykonywać paletę działań zgodnych z ideą tradycyjnej
-            akupunktury, gdzie stosuje się wbijanie w ciało igieł. Kamertony
-            charakteryzują się podobnym działaniem, lecz jest to metoda
-            bezinwazyjna i wielu ludzi, którzy mają problem z poddaniem się
-            klasycznemu zabiegowi z igłami, może poddać się działaniu
-            kamertonów, gdyż jest to metoda charakteryzująca się jednak dużą
+            akupunktury, gdzie stosuje się wbijanie w ciało igieł.
+          </p>
+          <p>
+            Kamertony charakteryzują się podobnym działaniem, lecz jest to
+            metoda bezinwazyjna i wielu ludzi, którzy mają problem z poddaniem
+            się klasycznemu zabiegowi z igłami, może poddać się działaniu
+            kamertonów, gdyż jest to technika charakteryzująca się dużą
             skutecznością.
           </p>
           <div className={styles.linksContainer}>

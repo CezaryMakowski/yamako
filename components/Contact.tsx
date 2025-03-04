@@ -36,7 +36,7 @@ export default function Contact() {
         </Link>
       </ScaleIn>
       <FadeIn>
-        <div className={styles.localization}>
+        <div className={styles.localization} id="gdzie">
           <h2>Gdzie odbywają się sesje?</h2>
           <div className={styles.contact}>
             <Image src={pin} alt="pin" className={styles.pin} />
