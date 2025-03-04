@@ -5,26 +5,6 @@
   align-items: center;
 }
 
-.borderTop {
-  position: relative;
-  width: 100vw;
-  height: 3rem;
-  background-color: white;
-}
-
-.borderTop::before {
-  content: "";
-  position: absolute;
-  bottom: 0;
-  left: 50%;
-  translate: -50% 45%;
-  width: clamp(15rem, 50%, 40rem);
-  aspect-ratio: 3/1;
-  border-radius: 50%;
-  background-color: white;
-  z-index: -2;
-}
-
 .visualsContainer {
   position: relative;
 }
@@ -59,6 +39,10 @@
   background-color: white;
   text-align: center;
   padding-block: 3rem 1rem;
+}
+
+.textContainer > h2 {
+  margin-bottom: 1rem;
 }
 
 .textContainer > p {

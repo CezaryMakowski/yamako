@@ -1,0 +1,39 @@
+.mySwiper {
+  width: 100%;
+  margin-top: 2rem;
+  /* overflow: visible !important; */
+}
+
+.mySwiperThumbs {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  width: 90%;
+  overflow: visible !important;
+}
+
+.activeThumb {
+  border: solid 0.3rem var(--dark);
+}
+
+.thumb {
+  width: 10% !important;
+  min-width: 8rem;
+}
+
+.mySwiperThumbs .slide {
+  width: 100%;
+  height: auto;
+  transition: box-shadow 0.2s ease-in-out;
+}
+
+.slide {
+  width: 100%;
+  height: auto;
+  border-radius: 0.6rem;
+}
+
+@media (max-width: 1024px) {
+  .mySwiper {
+    padding-inline: 3rem !important;
+  }
+}

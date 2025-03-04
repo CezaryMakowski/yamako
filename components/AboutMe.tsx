@@ -20,6 +20,7 @@ export default function AboutMe() {
         są mi bardzo bliskie. Odczuwam materię w której się manifestują na
         poziomie materialnym, wibracyjnym oraz duchowym.
       </p>
+      <div className={styles.borderBottom}></div>
     </section>
   );
 }

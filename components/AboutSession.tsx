@@ -10,7 +10,6 @@ import ScaleIn from "./utils/ScaleInAnim";
 export default function AboutSession() {
   return (
     <section className={styles.section}>
-      <div className={styles.borderTop}></div>
       <div className={styles.visualsContainer}>
         <div className={`${styles.bottomShape} ${styles.left}`}></div>
         <div className={styles.bottomShape}></div>
@@ -30,6 +29,7 @@ export default function AboutSession() {
             komórkowym tutaj - na miejscu, udając się w indywidualną podróż na
             falach subtelnych brzmień.
           </p>
+          <h2>misy</h2>
           <p>
             Działanie mis poprawia naszą koncentrację, a napięcia i blokady
             emocjonalne zostają rozpuszczone. Może załagodzić to ból psychiczny
@@ -50,20 +50,34 @@ export default function AboutSession() {
             meridianach jest znana od tysiący lat i jest dostępna w
             podręcznikach Tradycyjnej Medycyny Chińskiej).
           </p>
+          <h2>kamertony</h2>
           <p>
-            Sesja polega na osiągnięciu subtelnego, zrelaksowanego stanu umysłu
-            i zawieszeniu ciała na wibracjach. Mocnym, prozdrowotnym jej efektem
-            jest eliminacja toksyn. (Należy pamiętać, by po powrocie do domu
-            dobrze nawodnić organizm, co pozwoli ujść toksynom z tkanek). Dzieje
-            się tak dlatego, że poprzez takie oddziaływanie dokonuje się swoista
-            fizjoterapia komórek.
+            Kamertony stanowią medium z którego równierz korzystam. Jeżeli ktoś
+            ma trudności z wyciszeniem umysłu, jeżeli myślami nie potrafi odciąć
+            się od codziennej gonitwy dnia - wtedy pomaga mi określony ich
+            zestaw. Używam też te, które oddziaływują na fale mózgowe. Za pomocą
+            odpowiedniej ich pary, można pomóc, by osiągnąć stan u kogoś, który
+            bardzo sprzyja później we właściwym odbiorze sesji śpiewającymi
+            misami.
+          </p>
+          <p>
+            Kamertonami można o wiele więcej. Wraz z indywidualnym podejściem do
+            człowieka, można pomóc mu w osiągnięciu balansu ciała i ducha.
+            Umieszczając nóżkę kamertonu na punktach akupunkturowych na ciele,
+            można wykonywać paletę działań zgodnych z ideą tradycyjnej
+            akupunktury, gdzie stosuje się wbijanie w ciało igieł. Kamertony
+            charakteryzują się podobnym działaniem, lecz jest to metoda
+            bezinwazyjna i wielu ludzi, którzy mają problem z poddaniem się
+            klasycznemu zabiegowi z igłami, może poddać się działaniu
+            kamertonów, gdyż jest to metoda charakteryzująca się jednak dużą
+            skutecznością.
           </p>
           <div className={styles.linksContainer}>
             <Link href={"/#przebieg-sesji"}>Jak przebiega sesja?</Link>
             <Link href={"/#cennik"}>Cennik</Link>
             <Link href={"/#kontakt"}>Umów się na sesję</Link>
           </div>
-          <h2 className={styles.title2}>Korzyści zdrowotne śpiewających mis</h2>
+          <h2 className={styles.title2}>Korzyści zdrowotne</h2>
           <div className={styles.listContainer}>
             <ul>
               <li>Zmniejsza się poziom stresu</li>

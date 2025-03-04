@@ -45,6 +45,14 @@ export default function HowItsDone() {
           umyśle. Zawsze należy się temu przyjrzeć i potem się zastanowić... Co
           też chcą one nam powiedzieć? Cokolwiek się nie pojawi - jest to ważne!
         </p>
+        <p>
+          Sesja polega na osiągnięciu subtelnego, zrelaksowanego stanu umysłu i
+          zawieszeniu ciała na wibracjach. Mocnym, prozdrowotnym jej efektem
+          jest eliminacja toksyn. (Należy pamiętać, by po powrocie do domu
+          dobrze nawodnić organizm, co pozwoli ujść toksynom z tkanek). Dzieje
+          się tak dlatego, że poprzez takie oddziaływanie dokonuje się swoista
+          fizjoterapia komórek.
+        </p>
         <Image src={shape} alt="styling_element" className={styles.shape} />
       </div>
     </section>

@@ -7,6 +7,7 @@ import Pricing from "@/components/Pricing";
 import Contact from "@/components/Contact";
 import FadeIn from "@/components/utils/FadeInAnim";
 import ScaleIn from "@/components/utils/ScaleInAnim";
+import Slider from "@/components/Slider";
 
 export default function Home() {
   return (
@@ -23,6 +24,7 @@ export default function Home() {
         <Pricing />
       </ScaleIn>
       <Contact />
+      <Slider />
     </main>
   );
 }
