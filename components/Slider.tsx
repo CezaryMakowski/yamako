@@ -21,12 +21,6 @@ export default function Slider() {
     { src: "/where/yamako_mapa.webp", alt: "mapa dojazdu" },
     { src: "/where/yamako_entry.jpg", alt: "wejście do gabinetu" },
     { src: "/where/yamako_domofon.webp", alt: "domofon" },
-    { src: "/where/yamako_mapa.webp", alt: "mapa dojazdu" },
-    { src: "/where/yamako_entry.jpg", alt: "wejście do gabinetu" },
-    { src: "/where/yamako_domofon.webp", alt: "domofon" },
-    { src: "/where/yamako_mapa.webp", alt: "mapa dojazdu" },
-    { src: "/where/yamako_entry.jpg", alt: "wejście do gabinetu" },
-    { src: "/where/yamako_domofon.webp", alt: "domofon" },
   ];
 
   function Zoom({ image }: { image: ZoomedImage }) {
@@ -104,6 +98,8 @@ export default function Slider() {
         slidesPerView={"auto"}
         watchSlidesProgress
         spaceBetween={15}
+        centeredSlides
+        initialSlide={1}
       >
         {gallery.map((image, index) => (
           <SwiperSlide key={`slide-thumb${index}`} className={styles.thumb}>

@@ -429,19 +429,6 @@ export default function FAQ() {
               </p>
             </div>
           </FaqModule>
-          <FaqModule question="Jaka jest twoja polityka anulowania?">
-            <div className={styles.answer}>
-              <p>
-                Aby odwołać wizytę, należy powiadomić o tym fakcie z 24-
-                godzinnym wyprzedzeniem, w przeciwnym razie zostanie naliczona
-                pełna opłata za sesję. Proszę NIE spóźniać się na sesję. Godziny
-                wizyt są ustalane indywidualnie i nie mogą zostać wydłużone poza
-                podany czas, aby uwzględnić spóźnienia. Jeśli się spóźnisz,
-                sesja zostanie skrócona. Jeśli spóźnisz się na więcej niż 15
-                minut, sesja zostanie uznana za odwołaną.
-              </p>
-            </div>
-          </FaqModule>
         </section>
       </FadeIn>
     </main>

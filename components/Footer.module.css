@@ -43,7 +43,7 @@
 .terms {
   display: block;
   font-family: var(--title-font);
-  font-size: 1.5rem;
+  font-size: 1.1rem;
   text-align: center;
   padding: 1rem;
   padding-bottom: 2rem;
@@ -55,6 +55,26 @@
   background-color: white;
   padding: 0.5rem 1rem;
   border: solid 0.3rem var(--dark);
+}
+
+.designBy {
+  display: flex;
+  justify-content: flex-end;
+  gap: 0.5rem;
+  background-color: var(--light);
+  padding-inline: 1rem;
+}
+
+.designBy a,
+.designBy p {
+  font-family: var(--text-font);
+  font-size: 1.1rem;
+  font-weight: 300;
+}
+
+.designBy a {
+  text-decoration: underline;
+  cursor: pointer;
 }
 
 @media (max-width: 920px) {

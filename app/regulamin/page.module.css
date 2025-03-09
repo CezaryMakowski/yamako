@@ -24,7 +24,7 @@
   bottom: 0;
   left: 50%;
   translate: -50% 50%;
-  width: clamp(22rem, 50vw, 35rem);
+  width: clamp(21rem, 50vw, 35rem);
   aspect-ratio: 2/1;
   border-radius: 50%;
   background-color: var(--light);

@@ -29,7 +29,7 @@ export default function AboutSession() {
             komórkowym tutaj - na miejscu, udając się w indywidualną podróż na
             falach subtelnych brzmień.
           </p>
-          <h2>misy</h2>
+          <h2>Misy</h2>
           <p>
             Działanie mis poprawia naszą koncentrację, a napięcia i blokady
             emocjonalne zostają rozpuszczone. Może załagodzić to ból psychiczny
@@ -50,7 +50,7 @@ export default function AboutSession() {
             meridianach jest znana od tysiący lat i jest dostępna w
             podręcznikach Tradycyjnej Medycyny Chińskiej).
           </p>
-          <h2>kamertony</h2>
+          <h2>Kamertony</h2>
           <p>
             Kamertony stanowią medium z którego równierz korzystam. Jeżeli ktoś
             ma trudności z wyciszeniem umysłu, jeżeli myślami nie potrafi odciąć

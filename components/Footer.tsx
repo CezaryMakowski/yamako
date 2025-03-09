@@ -13,6 +13,12 @@ export default function Footer() {
       <div className={styles.terms}>
         <Link href={"/regulamin"}>Regulamin Współpracy</Link>
       </div>
+      <div className={styles.designBy}>
+        <p>Designed by</p>
+        <Link target="_blank" href={"https://designandweb.dev"}>
+          Cezary
+        </Link>
+      </div>
     </footer>
   );
 }

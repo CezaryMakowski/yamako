@@ -17,7 +17,7 @@ export default function Introduction() {
           W zgodzie z wypracowaną przez setki lat przez mistrzów z rejonu
           Himalajów metodą balansowania zdrowia na poziomie energetycznym i
           cielesnym zabieram tych, którzy zapukają do mnie w podróż dźwiękiem
-          mis...
+          mis i kamertonów...
         </p>
       </div>
       <Image src={bowls} alt="misy" className={styles.bowls} />
