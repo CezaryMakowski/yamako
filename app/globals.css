@@ -44,6 +44,12 @@ a {
   text-decoration: none;
 }
 
+.anchor {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50vh);
+}
+
 p,
 li {
   font-family: var(--text-font);

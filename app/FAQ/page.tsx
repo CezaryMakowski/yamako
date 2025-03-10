@@ -18,7 +18,9 @@ export default function FAQ() {
       <FadeIn>
         <section className={styles.faqSection}>
           <Image className={styles.shape} src={shape} alt="styling_element" />
-          <h2>Misy</h2>
+          <div className={styles.subTitle}>
+            <h2>Misy</h2>
+          </div>
           <FaqModule question="Czym są misy śpiewające?">
             <div className={styles.answer}>
               <p>
@@ -234,7 +236,9 @@ export default function FAQ() {
               </p>
             </div>
           </FaqModule>
-          <h2>Kamertony</h2>
+          <div className={styles.subTitle}>
+            <h2>Kamertony</h2>
+          </div>
           <FaqModule question="Kamertony?">
             <div className={styles.answer}>
               <p>
@@ -330,7 +334,9 @@ export default function FAQ() {
               </p>
             </div>
           </FaqModule>
-          <h2>Pytania Ogólne</h2>
+          <div className={styles.subTitle}>
+            <h2>Pytania Ogólne</h2>
+          </div>
           <FaqModule question="Co gdy ktoś nosi i używa aparat słuchowy?">
             <div className={styles.answer}>
               <p>

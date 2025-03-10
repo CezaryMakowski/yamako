@@ -4,7 +4,8 @@ import soundWave from "@/public/yamako_circular_soundwave.svg";
 
 export default function Pricing() {
   return (
-    <section className={styles.section} id="cennik">
+    <section className={styles.section}>
+      <span className="anchor" id="cennik"></span>
       <div className={styles.pricing}>
         <Image src={soundWave} alt="sound wave" className={styles.soundWave} />
         <h2>Cennik</h2>

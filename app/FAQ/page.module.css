@@ -69,11 +69,19 @@
   z-index: -3;
 }
 
-.faqSection h2 {
+.subTitle {
   width: 95%;
-  margin-inline: auto;
+  padding-top: 1rem;
+  padding-left: 1rem;
   background-color: var(--light);
-  padding: 1rem 1.5rem;
+  margin-inline: auto;
+}
+
+.subTitle h2 {
+  width: fit-content;
+  background-color: white;
+  padding: 0.2rem 1rem;
+  border: 0.2rem solid var(--dark);
 }
 
 .answer p {
