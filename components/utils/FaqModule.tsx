@@ -27,14 +27,14 @@ export default function FaqModule({
 
   return (
     <div className={styles.faq}>
-      <h2 className={styles.question} onClick={() => clickHandler()}>
+      <h3 className={styles.question} onClick={() => clickHandler()}>
         {question}
         <Image
           className={expanded ? styles.rotate : undefined}
           src={arrow}
           alt="arrow"
         />
-      </h2>
+      </h3>
       <div ref={ref} className={styles.answerContainer}>
         {children}
       </div>

@@ -69,6 +69,13 @@
   z-index: -3;
 }
 
+.faqSection h2 {
+  width: 95%;
+  margin-inline: auto;
+  background-color: var(--light);
+  padding: 1rem 1.5rem;
+}
+
 .answer p {
   text-align: center;
   padding-inline: 1rem;
