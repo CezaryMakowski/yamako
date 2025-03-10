@@ -355,7 +355,7 @@ export default function FAQ() {
           <FaqModule question="Czy nasze ciało słyszy dźwięk?">
             <div className={styles.answer}>
               <p>
-                Niektóre badania udowadniały również, w jaki sposób inne
+                {`Niektóre badania udowadniały również, w jaki sposób inne
                 narządy, takie jak skóra, są w stanie odbierać i pochłaniać
                 dźwięk. Jedno z badań von Békésy'ego identyfikuje podobieństwa
                 między słyszeniem a odczuwaniem wibracji, ponieważ oba są
@@ -365,7 +365,7 @@ export default function FAQ() {
                 Naukowcy wypuścili również podmuch powietrza podobny do
                 podmuchu, który powstaje podczas wymawiania sylab. Naukowcy
                 odkryli, że poziom dokładności uczestników w identyfikowaniu
-                sylab był zmniejszony w przypadku braku podmuchów powietrza.
+                sylab był zmniejszony w przypadku braku podmuchów powietrza.`}
               </p>
             </div>
           </FaqModule>
