@@ -9,7 +9,13 @@ export default function Pricing() {
       <div className={styles.pricing}>
         <Image src={soundWave} alt="sound wave" className={styles.soundWave} />
         <h2>Cennik</h2>
-        <p>Koszt inwestycji to 150 PLN za 60 minutowe spotkanie.</p>
+        <p>
+          Koszt inwestycji to
+          <br />
+          <span>150 PLN</span>
+          <br />
+          za 60 minutowe spotkanie.
+        </p>
       </div>
     </section>
   );
