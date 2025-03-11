@@ -90,6 +90,10 @@
     font-size: 1.7rem;
   }
 
+  .textContainer p {
+    padding-inline: 0.8rem;
+  }
+
   .linksContainer {
     flex-direction: column;
   }

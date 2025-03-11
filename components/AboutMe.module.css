@@ -120,5 +120,6 @@
 
   .text {
     padding-top: 1rem;
+    padding-inline: 1rem;
   }
 }
