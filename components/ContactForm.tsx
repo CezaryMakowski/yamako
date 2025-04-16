@@ -60,7 +60,11 @@ export default function ContactForm() {
         {errors.message && (
           <p className={styles.error}>{errors.message.message}</p>
         )}
-        <button type="submit" disabled={isSubmitting}>
+        <button
+          type="submit"
+          disabled={isSubmitting}
+          onClick={() => window.dataLayer?.push({ event: "submitted" })}
+        >
           Wyślij
         </button>
         <Image src={lotos} alt="lotos" className={styles.lotos} />

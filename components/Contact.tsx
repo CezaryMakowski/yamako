@@ -20,11 +20,13 @@ export default function Contact() {
         <div className={styles.contactContainer}>
           <div className={styles.contact}>
             <Image src={tel} alt="telephone" />
-            <Link href={"tel:+48515531720"}>+48 515 531 720</Link>
+            <Link href={"tel:+48515531720"} id="tel_btn">
+              +48 515 531 720
+            </Link>
           </div>
           <div className={styles.contact}>
             <Image src={mail} alt="mail" />
-            <Link href={"mailto:yamakoterapie@gmail.com"}>
+            <Link href={"mailto:yamakoterapie@gmail.com"} id="mail_btn">
               yamakoterapie@gmail.com
             </Link>
           </div>
