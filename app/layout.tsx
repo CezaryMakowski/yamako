@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Protest_Revolution } from "next/font/google";
+import { GoogleAnalytics, GoogleTagManager } from "@next/third-parties/google";
 import localFont from "next/font/local";
 import "./globals.css";
 import Header from "@/components/Header";
@@ -34,6 +35,9 @@ export default function RootLayout({
         {children}
         <Footer />
       </body>
+      {/* <GoogleAnalytics gaId="G-J59QCYVWFJ" /> */}
+      {/* <GoogleTagManager gtmId="AW-10937908128" /> */}
+      <GoogleTagManager gtmId="GTM-WSS8JNJL" />
     </html>
   );
 }
