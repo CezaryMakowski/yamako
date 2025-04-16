@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { Protest_Revolution } from "next/font/google";
-import { GoogleAnalytics, GoogleTagManager } from "@next/third-parties/google";
+import { GoogleTagManager } from "@next/third-parties/google";
 import localFont from "next/font/local";
 import "./globals.css";
 import Header from "@/components/Header";
