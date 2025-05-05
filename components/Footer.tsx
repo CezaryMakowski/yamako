@@ -12,6 +12,7 @@ export default function Footer() {
       <Nav className={styles.nav} />
       <div className={styles.terms}>
         <Link href={"/regulamin"}>Regulamin Współpracy</Link>
+        <Link href={"/polityka-prywatnosci"}>polityka prywatności</Link>
       </div>
       <div className={styles.designBy}>
         <p>Designed by</p>

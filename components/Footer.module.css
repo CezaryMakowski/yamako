@@ -41,17 +41,21 @@
 }
 
 .terms {
-  display: block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  flex-wrap: wrap;
   font-family: var(--title-font);
   font-size: 1.1rem;
   text-align: center;
   padding: 1rem;
-  padding-bottom: 2rem;
+  padding-bottom: 1rem;
   background-color: var(--light);
   width: 100%;
 }
 
-.terms a {
+.terms a:first-child {
   background-color: white;
   padding: 0.5rem 1rem;
   border: solid 0.3rem var(--dark);
