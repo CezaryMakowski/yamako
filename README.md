@@ -1,36 +1,104 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Yamako - Osobista Strona Internetowa
 
-## Getting Started
+Nowoczesna, responsywna strona internetowa stworzona z użyciem **Next.js 15**, **React 19** i **TypeScript**. Zawiera informacje o oferowanych sesjach, galerię i formularz kontaktowy.
 
-First, run the development server:
+## 📁 Struktura projektu
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+```
+yamako/
+├── app/                          # Strony Next.js
+│   ├── page.tsx                  # Strona główna
+│   ├── layout.tsx                # Layout główny
+│   ├── globals.css               # Globalne style
+│   ├── api/                      # API routes
+│   │   └── send/
+│   │       └── route.ts          # Endpoint do wysyłania emaili
+│   ├── FAQ/                      # Strona FAQ
+│   ├── polityka-prywatnosci/     # Polityka prywatności
+│   └── regulamin/                # Regulamin
+│
+├── components/                   # Komponenty React
+│   ├── Header.tsx                # Nagłówek
+│   ├── Footer.tsx                # Stopka
+│   ├── Introduction.tsx           # Sekcja wprowadzenia
+│   ├── AboutMe.tsx               # O mnie
+│   ├── AboutSession.tsx          # O sesjach
+│   ├── HowItsDone.tsx            # Jak to działa
+│   ├── Pricing.tsx               # Cennik
+│   ├── Contact.tsx               # Sekcja kontaktu
+│   ├── ContactForm.tsx           # Formularz kontaktowy
+│   ├── Slider.tsx                # Galereria/slider
+│   ├── utils/                    # Komponenty narzędziowe
+│   │   ├── FadeInAnim.tsx        # Animacja fade-in
+│   │   ├── ScaleInAnim.tsx       # Animacja skalowania
+│   │   ├── FaqModule.tsx         # Moduł FAQ
+│   │   └── Nav.tsx               # Nawigacja
+│   └── *.module.css              # Style CSS modules
+│
+├── lib/
+│   └── types.ts                  # Wspólne typy TypeScript
+│
+├── public/                       # Zasoby statyczne
+│   └── where/                    # Galeria/obrazy
+│
+├── fonts/                        # Niestandardowe fonty
+│
+├── eslint.config.mjs             # Konfiguracja ESLint
+├── next.config.ts                # Konfiguracja Next.js
+├── tsconfig.json                 # Konfiguracja TypeScript
+├── package.json                  # Zależności i skrypty
+└── README.md                     # Ten plik
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🛠️ Technologia
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### Frontend
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- **Next.js** 15.1.6 - Framework React z SSR/SSG
+- **React** 19.0.0 - Biblioteka UI
+- **TypeScript** 5 - Typowanie statyczne
+- **CSS Modules** - Scoped styling
 
-## Learn More
+### Biblioteki
 
-To learn more about Next.js, take a look at the following resources:
+- **React Hook Form** - Zarządzanie formularzami
+- **Zod** - Walidacja typów
+- **Resend** - Wysyłanie emaili
+- **Swiper** - Carousele i slidery
+- **Motion** - Animacje i przejścia
+- **Hookform Resolvers** - Integracja React Hook Form z Zod
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### Narzędzia deweloperskie
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- **ESLint** - Linting kodu
+- **TypeScript** - Sprawdzanie typów
 
-## Deploy on Vercel
+## 📧 Funkcje
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### Formularz Kontaktowy
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- Walidacja w real-time
+- Wysyłanie emaili przez **Resend**
+- Obsługa błędów
+- Feedback dla użytkownika
+
+### Strony
+
+- **Strona główna** - Pełna prezentacja usług
+- **FAQ** - Pytania i odpowiedzi
+- **Polityka prywatności** - Dokumentacja legalna
+- **Regulamin** - Warunki użytkowania
+
+### Animacje
+
+- Fade-in dla elementów
+- Scale-in dla przyciągania uwagi
+- Smooth scrolling
+- Efekty hover
+
+## Kontakt
+
+Jeśli chcesz nawiązać współpracę lub masz pytania, skontaktuj się ze mną:
+
+- Imię i nazwisko: Cezary Makowski
+- E-mail: cezary.makowski96@gmail.com

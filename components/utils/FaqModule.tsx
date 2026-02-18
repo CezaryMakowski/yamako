@@ -18,7 +18,6 @@ export default function FaqModule({
     setExpanded(!expanded);
     if (!ref.current) return;
     if (expanded) {
-      console.log(expanded);
       ref.current.style.maxHeight = "0px";
     } else {
       ref.current.style.maxHeight = ref.current.scrollHeight + "px";
